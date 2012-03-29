@@ -13,10 +13,8 @@ Usando estructuras de control vamos a construir **2 matrices**. La primer matriz
 Es posible usar la funcion de PHP [chr()](http://co.php.net/manual/en/function.chr.php) para transformar un numero entero en su equivalente caracter de texto. Por Ejemplo:
 
 ```php
-
 <?php
-  echo char(65); // Mostrara la letra A
-  echo char(126); // Mostrara el caracter ~
+  echo chr(65); // Mostrara la letra A
+  echo chr(126); // Mostrara el caracter ~
 ?>
-
 ```
